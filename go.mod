@@ -1,6 +1,6 @@
 module github.com/googlecloudplatform/gcsfuse/v2
 
-go 1.24.0
+go 1.25.0
 
 require (
 	cloud.google.com/go/compute/metadata v0.5.2
@@ -34,11 +34,11 @@ require (
 	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.31.0
 	go.opentelemetry.io/otel/sdk v1.40.0
 	go.opentelemetry.io/otel/trace v1.40.0
-	golang.org/x/net v0.30.0
+	golang.org/x/net v0.58.0
 	golang.org/x/oauth2 v0.23.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.40.0
-	golang.org/x/text v0.19.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/sys v0.47.0
+	golang.org/x/text v0.41.0
 	golang.org/x/time v0.7.0
 	google.golang.org/api v0.203.0
 	google.golang.org/grpc v1.67.1
@@ -109,7 +109,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.40.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.40.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/crypto v0.55.0 // indirect
 	golang.org/x/exp v0.0.0-20240530194437-404ba88c7ed0 // indirect
 	google.golang.org/genproto v0.0.0-20241015192408-796eee8c2d53 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241007155032-5fefd90f89a9 // indirect
